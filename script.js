@@ -72,7 +72,7 @@ function createPopup(currentFeature) {
     currentFeature.properties[config.popupInfo3] +
     '</h3>' + '<br>' + '<h3>' +
     '<p><a href="' +
-    currentFeature.properties.[config.popupInfo2] +
+    currentFeature.properties[config.popupInfo2] +
     '" target="_blank">Meer info</a></p>' + '</h3>'
 )
     .addTo(map);
