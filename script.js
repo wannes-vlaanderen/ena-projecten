@@ -8,8 +8,8 @@ const config = {
   accessToken:
     'pk.eyJ1Ijoid2FubmVzLXZsYWFuZGVyZW4iLCJhIjoiY2xqb2Q0MDUxMDhjeDNtcGIxNjF4a2lrbyJ9.TmBAlCtIR-SS3YXwXvUJlA',
   CSV: 'https://docs.google.com/spreadsheets/d/10t7bnO7eSdR4qlB-F1etLpwUoRyPlWp5EVA9OsxzplM/gviz/tq?tqx=out:csv&sheet=Sheet1',
-  center: [4.255829,51.052618],
-  zoom: 7.25,
+  center: [5.112,51.098],
+  zoom: 8.5,
   title: 'ENA Gemeenten en Projecten',
   description:
     'Deze realisaties zijn het resultaat van verschillende projectoproepen zoals de proeftuinen onthardingen, groenblauwe dooradering en groenblauwe parels. Je kunt de lijst filteren op projectoproep, terreinfunctie en gebruikte methodes.',
