@@ -5,7 +5,7 @@ Deze repository bevat een klikbaar kaartje. Een template voor het maken van klik
 Dit klikbare kaartje wordt gebruikt op https://omgeving.vlaanderen.be/ena-projecten
 
 #### Gebruikte data
-mapbox: https://api.mapbox.com/styles/v1/wannes-vlaanderen/cljph5mll00ul01pq1e105wha.html?title=view&access_token=pk.eyJ1Ijoid2FubmVzLXZsYWFuZGVyZW4iLCJhIjoiY2xqb2Q0MDUxMDhjeDNtcGIxNjF4a2lrbyJ9.TmBAlCtIR-SS3YXwXvUJlA&zoomwheel=true&fresh=true#10.48/51.1653/4.8608
+mapbox: https://api.mapbox.com/styles/v1/wannes-vlaanderen/cljph5mll00ul01pq1e105wha.html?title=view&access_token=pk.eyJ1Ijoid2FubmVzLXZsYWFuZGVyZW4iLCJhIjoiY2xqb2Q0MDUxMDhjeDNtcGIxNjF4a2lrbyJ9.TmBAlCtIR-SS3YXwXvUJlA&zoomwheel=true&fresh=true#10.48/51.1653/4.8608  
 csv: https://docs.google.com/spreadsheets/d/10t7bnO7eSdR4qlB-F1etLpwUoRyPlWp5EVA9OsxzplM/edit?usp=sharing
 
 
