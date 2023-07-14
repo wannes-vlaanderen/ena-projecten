@@ -3,11 +3,11 @@ class Legenda {
     this._map = map;
     this._container = document.createElement('div');
     this._container.className = 'mapboxgl-ctrl';
-    this._container.appendChild(this.newEntry("nieuw_bedrijventerrein", "Nieuw Bedrijventerrein"))
-    this._container.appendChild(this.newEntry("bestaand_bedrijventerrein", "Bestaand Bedrijventerrein"))
-    this._container.appendChild(this.newEntry("bos", "Natuurgebied"))
-    this._container.appendChild(this.newEntry("regio", "Regio"))
-    this._container.appendChild(this.newEntry("infrastructuurproject", "Infrastructuurproject"))
+    this._container.appendChild(this.newEntry("#e8da11", "Nieuw Bedrijventerrein"))
+    this._container.appendChild(this.newEntry("#3d4f71", "Bestaand Bedrijventerrein"))
+    this._container.appendChild(this.newEntry("#b0a8c2", "Natuurgebied"))
+    this._container.appendChild(this.newEntry("#2b6938", "Regio"))
+    this._container.appendChild(this.newEntry("#f8b06d", "Infrastructuurproject"))
     this._container.width = 120
     this._container.classList.add("legenda")
     return this._container;
