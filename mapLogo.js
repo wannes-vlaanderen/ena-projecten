@@ -1,13 +1,19 @@
+const legende = {
+  "#e8da11": "Nieuw Bedrijventerrein",
+  "#3d4f71": "Deelproject herstructurering",
+  "#b0a8c2": "Open Ruimte",
+  "#2b6938": "Herstructuring en Inbreiding",
+  "#f8b06d": "Infrastructuurproject"
+}
+
 class Legenda {
   onAdd(map) {
     this._map = map;
     this._container = document.createElement('div');
     this._container.className = 'mapboxgl-ctrl';
-    this._container.appendChild(this.newEntry("#e8da11", "Nieuw Bedrijventerrein"))
-    this._container.appendChild(this.newEntry("#3d4f71", "Bestaand Bedrijventerrein"))
-    this._container.appendChild(this.newEntry("#b0a8c2", "Natuurgebied"))
-    this._container.appendChild(this.newEntry("#2b6938", "Regio"))
-    this._container.appendChild(this.newEntry("#f8b06d", "Infrastructuurproject"))
+    for (const [color, name] of legende) {
+      this._container.appendChild(this.newEntry(color, name));
+    }
     this._container.width = 120
     this._container.classList.add("legenda")
     return this._container;
