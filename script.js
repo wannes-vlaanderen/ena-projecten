@@ -619,4 +619,4 @@ class Legenda {
     this._map = undefined;
   }
 }
-map.addControl(new Legenda(map), "top-right")
+//map.addControl(new Legenda(map), "top-right")
