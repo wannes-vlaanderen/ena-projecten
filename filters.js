@@ -336,7 +336,7 @@ function removeFiltersButton() {
 function setupFilter(filterSettings) {
   createFilterObject(filterSettings);
   applyFilters();
-  filters();
+  filters(filterSettings);
   removeFiltersButton();
   // Modal - popup for filtering results
   const filterResults = document.getElementById('filterResults');
