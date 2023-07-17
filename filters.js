@@ -1,7 +1,13 @@
+/*
+This file should not be used without sidebar.js
+*/
+
 function createFilterPopup(parent) {
   /*
   creates the filterpopup screen when pressing the filters button
+  
   adds a filter button to the sidebar
+  Note: you first have to run createSidebar() from sidebar.js
   */
   const div1 = document.createElement("div")
   div1.id = "modal"
