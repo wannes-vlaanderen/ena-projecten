@@ -41,6 +41,5 @@ function createSidebar() {
   div1.appendChild(map)
   
   document.body.appendChild(div1)
-  createFilterPopup(div1)
   
 }
