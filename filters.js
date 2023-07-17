@@ -1,4 +1,8 @@
 function createFilterPopup(parent) {
+  /*
+  creates the filterpopup screen when pressing the filters button
+  adds a filter button to the sidebar
+  */
   const div1 = document.createElement("div")
   div1.id = "modal"
   div1.classList.add('absolute', 'top', 'right', 'bottom', 'left', 'scroll-auto', 'hide-visually', 'flex-parent', 'flex-parent--center-main', 'mt120-ml')
