@@ -338,5 +338,18 @@ function setupFilter(filterSettings) {
   applyFilters();
   filters();
   removeFiltersButton();
+  // Modal - popup for filtering results
+  const filterResults = document.getElementById('filterResults');
+  const exitButton = document.getElementById('exitButton');
+  const modal = document.getElementById('modal');
+    
+  filterResults.addEventListener('click', () => {
+    modal.classList.remove('hide-visually');
+    modal.classList.add('z5');
+  });
+    
+  exitButton.addEventListener('click', () => {
+    modal.classList.add('hide-visually');
+  });
 }
 
