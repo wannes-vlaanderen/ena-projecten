@@ -1,6 +1,7 @@
 function createSidebar() {
   const div1 = document.createElement("div")
   div1.classList.add('flex-parent', 'viewport-full', 'relative', 'scroll-hidden')
+  div1.id = "div1"
   const div2 = document.createElement("div")
   div2.classList.add('flex-child', 'w-full', 'w360-ml', 'absolute', 'static-ml', 'left', 'bottom')
   const div3 = document.createElement("div")
