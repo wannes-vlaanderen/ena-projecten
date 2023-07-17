@@ -13,7 +13,7 @@ const config = {
   title: 'ENA Gemeenten en Projecten',
   description:
     'Deze realisaties zijn het resultaat van verschillende projectoproepen zoals de proeftuinen onthardingen, groenblauwe dooradering en groenblauwe parels. Je kunt de lijst filteren op projectoproep, terreinfunctie en gebruikte methodes.',
-  sideBarInfo: ['HuidigeTitel', 'Oppervlakte (ha)'],
+  sideBarInfo: ['HuidigeTitel'],
   popupInfo: ['HuidigeTitel'],
   popupInfo2: ['Link'],
   popupInfo3: ['Description'],
